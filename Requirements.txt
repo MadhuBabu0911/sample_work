@@ -1,0 +1,22 @@
+# Core
+pymupdf>=1.23.0          # PDF → Image conversion (import as fitz)
+Pillow>=10.0.0           # Image handling
+
+# OCR Engines (install at least one)
+easyocr>=1.7.0           # EasyOCR - simplest to install
+# python-doctr[torch]>=0.8.0  # DocTR (uncomment to use)
+# zhipuai>=2.0.0              # GLM-OCR via ZhipuAI API (uncomment to use)
+
+# LLM Providers (install at least one)
+openai>=1.0.0            # OpenAI GPT
+# anthropic>=0.30.0          # Anthropic Claude (uncomment to use)
+requests>=2.31.0          # For Ollama (local LLMs)
+
+# Web UI / API
+streamlit>=1.35.0
+pandas>=2.0.0
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# Utilities
+python-dotenv>=1.0.0     # Load .env file for API keys
